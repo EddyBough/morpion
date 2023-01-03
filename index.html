@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>MORPION</title>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/img/Bienvenue-sur-mon-projet.png" width="1000" height="250" alt="pokemontitle">
+  </header>
+  <h1>TIC TAC TOE</h1>
+  <button id="random" onclick="cpuMode()">Jouer contre Random </button>
+  <div id="grid">
+    <div id="c1" class="case" onclick="play(this)"></div>
+    <div id="c2" class="case" onclick="play(this)"></div>
+    <div id="c3" class="case" onclick="play(this)"></div>
+    <div id="c4" class="case" onclick="play(this)"></div>
+    <div id="c5" class="case" onclick="play(this)"></div>
+    <div id="c6" class="case" onclick="play(this)"></div>
+    <div id="c7" class="case" onclick="play(this)"></div>
+    <div id="c8" class="case" onclick="play(this)"></div>
+    <div id="c9" class="case" onclick="play(this)"></div>
+  </div>
+  <button id="replay" onclick="restart()">Rejouer</button>
+  
+  <div class="score">
+    <p> Celui qui aura 3 zarbi aura gagné ! <span id="joueur"></span> </p>
+    <p> Zarbi X : <span id="score1"></span> </p>
+    <p> Zarbi O   : <span id="score2"></span> </p>
+    <p> Match nul : <span id="scoreNul"></span> </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

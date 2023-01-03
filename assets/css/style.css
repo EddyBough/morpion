@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin: 2rem;
+  background-image: url(../img/Pokemon-Background-Designs40-earn-gold-here-40015982-1920-1080.jpg);
+  background-size: cover;
+  
+}
+button:hover {
+  background-color: rgb(128, 124, 0);
+}
+
+h1 {
+  font-family: "pokemonpolice";
+}
+  
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 5rem) ;
+  grid-template-rows: repeat(3, 5rem);
+  margin: 3rem auto;
+  gap: 1rem;
+  font-family: "zarbi";
+}
+
+.case {
+  border: 1px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+p{
+  margin-bottom: 1rem;
+  font-size: 1rem;  
+}
+
+.score {
+  font-family: "pokemonpolice";
+}
+
+p:first-of-type {
+  color: red;
+}
+@font-face{
+  font-family: "zarbi";
+  src: url(../font/pokemon-annon.ttf);
+}
+@font-face {
+  font-family: "pokemonpolice" ;
+  src: url(../font/Pokemon\ Solid.ttf);
+}
